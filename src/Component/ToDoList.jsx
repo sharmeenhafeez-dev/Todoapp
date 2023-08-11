@@ -6,7 +6,7 @@ export default function ToDoList(props) {
   return (
  <li className="list-item">
  {props.item}
-<span className='icons icon-delete'onClick={e=>{
+<span className='icons'onClick={e=>{
   props.delete(props.index)
 }}><AiFillDelete /></span>
  </li>

@@ -13,7 +13,8 @@ export default function ToDoList(props) {
   return (
   <div className='container-1'>
      <div className="input container">
-    <h1 className='heading'> todo list</h1>
+    <h2 className='heading'> todo list</h2>
+    
 <input type="text" className='input-box-todo'
 placeholder='Enter your todo'
 value={inputText}

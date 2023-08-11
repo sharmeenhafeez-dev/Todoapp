@@ -22,7 +22,7 @@ let addList= (inputText)=>{
 <div className="main container">
   <div className="center container">
 <AddToDo addList={addList}/>
-<h1 className='app-heading'>todo</h1>
+<h1 className='app-heading'></h1>
 <hr className='hr-line' />
 {listTodo.map((itemList,key)=>{
   return (
